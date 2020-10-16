@@ -1,9 +1,11 @@
+# importing needed modules
 import sys
 from tkinter import *
 from tkinter import messagebox
 import pandas as pd
 import numpy as np
 
+#try catch block to handle erroe at run time
 try:
     root = Tk()
     root.bg='gray'
@@ -24,6 +26,7 @@ try:
     var5 = StringVar()
     var6 = StringVar()
 
+    # import csv file acts as a database file
     df = pd.read_csv(r'Elements.csv')
 
     def details_label():
