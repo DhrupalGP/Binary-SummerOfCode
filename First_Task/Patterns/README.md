@@ -1,4 +1,4 @@
-# Patterns from Python
+# Patterns in Python
 
 ### Benefits to practice patters are:
 1) Familier with basic syntax of Python Programming.
